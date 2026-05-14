@@ -35,28 +35,22 @@ Developers can also customize their Elastic Beanstalk environment by using confi
 ### Deploying Your Application to Elastic Beanstalk
 Deploying your application to AWS Elastic Beanstalk is a straightforward process that can be completed in just a few steps. Here's a step-by-step guide on how to deploy your application to Elastic Beanstalk.
 
-**Step 1: Prepare Your Application**
-
+Step 1: Prepare Your Application
 Before you can deploy your application to Elastic Beanstalk, you need to make sure it's ready for deployment. This includes packaging your application, configuring any required dependencies, and preparing your code for production.
 
-**Step 2: Create an Elastic Beanstalk Environment**
-
+Step 2: Create an Elastic Beanstalk Environment
 Once your application is ready, you'll need to create an Elastic Beanstalk environment to host it. This can be done through the AWS Management Console or via the AWS CLI. When creating your environment, you'll need to specify the type of environment, platform, and other configuration settings.
 
-**Step 3: Upload Your Application**
-
+Step 3: Upload Your Application
 After you've created your Elastic Beanstalk environment, you can upload your application using the Elastic Beanstalk web console, AWS CLI, or AWS SDK. Elastic Beanstalk will automatically deploy your application and configure the required resources, such as EC2 instances, load balancers, and databases.
 
-**Step 4: Configure Your Environment**
-
+Step 4: Configure Your Environment
 Once your application has been uploaded, you can configure your Elastic Beanstalk environment by setting environment variables, configuring load balancing settings, and more.
 
-**Step 5: Test Your Application**
-
+Step 5: Test Your Application
 Before making your application publicly available, it's important to test it thoroughly. Elastic Beanstalk makes this easy by providing tools for monitoring and logging, as well as the ability to perform load testing.
 
-**Step 6: Launch Your Application**
-
+Step 6: Launch Your Application
 Once you've tested your application and are satisfied that it's ready for production, you can launch your Elastic Beanstalk environment. Elastic Beanstalk will automatically provision the required resources, such as EC2 instances and load balancers, and make your application available to the public.
 
 ### Managing and Monitoring Your Elastic Beanstalk Environment
@@ -112,14 +106,14 @@ It's also important to test your updated application before deploying it to prod
 ### Best Practices for Using Elastic Beanstalk
 When using Elastic Beanstalk, there are several best practices you should follow to ensure that your application runs smoothly and efficiently. By following these best practices, you can improve the reliability, scalability, and security of your application.
 
-1.  [**Use Version Control:** Always use a version control system like Git to manage your application code. This will help you track changes to your code over time and easily roll back changes if necessary.]
-2.  [**Configure Your Environment Properly:** When setting up your Elastic Beanstalk environment, be sure to configure it properly. This includes selecting the right instance type, configuring auto scaling, and setting up monitoring and logging.]
-3.  [**Use Elastic Load Balancing:** Use Elastic Load Balancing (ELB) to distribute traffic across your application instances. This can help improve the performance and reliability of your application, and also provide automatic scaling capabilities.]
-4.  [**Enable Auto Scaling:** Enable auto scaling to ensure that your environment can handle changes in traffic. By automatically scaling your environment based on traffic, you can ensure that your application remains available and running smoothly even during periods of high traffic.]
-5.  [**Use a Database:** Use a managed database service like Amazon RDS to handle database operations. This can help improve the scalability and reliability of your application, as well as provide automatic backups and failover capabilities.]
-6.  [**Use Security Best Practices:** Follow security best practices when setting up and configuring your environment. This includes using SSL/TLS encryption, restricting access to your environment, and regularly updating your software and dependencies.]
-7.  [**Test Your Application:** Test your application thoroughly before deploying it to production. This includes testing for functionality, performance, and security.]
-8.  [**Monitor Your Environment:** Monitor your environment regularly to ensure that it is running smoothly and efficiently. This includes monitoring performance metrics, reviewing logs, and setting up alerts and notifications for critical events.]
+1.  [Use Version Control: Always use a version control system like Git to manage your application code. This will help you track changes to your code over time and easily roll back changes if necessary.]
+2.  [Configure Your Environment Properly: When setting up your Elastic Beanstalk environment, be sure to configure it properly. This includes selecting the right instance type, configuring auto scaling, and setting up monitoring and logging.]
+3.  [Use Elastic Load Balancing: Use Elastic Load Balancing (ELB) to distribute traffic across your application instances. This can help improve the performance and reliability of your application, and also provide automatic scaling capabilities.]
+4.  [Enable Auto Scaling: Enable auto scaling to ensure that your environment can handle changes in traffic. By automatically scaling your environment based on traffic, you can ensure that your application remains available and running smoothly even during periods of high traffic.]
+5.  [Use a Database: Use a managed database service like Amazon RDS to handle database operations. This can help improve the scalability and reliability of your application, as well as provide automatic backups and failover capabilities.]
+6.  [Use Security Best Practices: Follow security best practices when setting up and configuring your environment. This includes using SSL/TLS encryption, restricting access to your environment, and regularly updating your software and dependencies.]
+7.  [Test Your Application: Test your application thoroughly before deploying it to production. This includes testing for functionality, performance, and security.]
+8.  [Monitor Your Environment: Monitor your environment regularly to ensure that it is running smoothly and efficiently. This includes monitoring performance metrics, reviewing logs, and setting up alerts and notifications for critical events.]
 
 By following these best practices, you can ensure that your application runs smoothly and efficiently on Elastic Beanstalk. This can help improve the reliability and scalability of your application, as well as provide a secure and stable environment for your users.
 
