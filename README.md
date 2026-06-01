@@ -11,14 +11,7 @@ Elastic Beanstalk provides a managed platform that takes care of the deployment 
 
 One of the key benefits of Elastic Beanstalk is its ease of use. With just a few clicks, developers can deploy their applications to the cloud and have them up and running in no time. Elastic Beanstalk also provides a web-based console and a command-line interface (CLI) that allows developers to manage their applications and environments.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
